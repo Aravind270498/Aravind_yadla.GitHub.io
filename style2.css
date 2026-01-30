@@ -1,0 +1,139 @@
+/* ============================
+   GLOBAL REFINEMENTS
+   ============================ */
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* ============================
+   HEADER (Hero Section)
+   ============================ */
+.page-header {
+  background: linear-gradient(120deg, #155799, #159957);
+  padding: 3rem 1.5rem;
+}
+
+.project-name {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.project-tagline {
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+/* ============================
+   NAV LINKS STYLE (Markdown links)
+   ============================ */
+.main-content a {
+  color: #159957;
+  font-weight: 600;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   MAIN CONTENT AREA
+   ============================ */
+.main-content {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+/* ============================
+   SECTION HEADINGS
+   ============================ */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  border-bottom: 2px solid #eaecef;
+  padding-bottom: 6px;
+  margin-top: 2.5rem;
+  color: #155799;
+}
+
+.main-content h2 {
+  font-size: 1.6rem;
+}
+
+.main-content h3 {
+  font-size: 1.3rem;
+}
+
+/* ============================
+   CARD STYLE (Portfolio Blocks)
+   ============================ */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================
+   SKILLS LIST
+   ============================ */
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+/* ============================
+   PROJECT TITLES
+   ============================ */
+.main-content h4 {
+  color: #0f3057;
+  margin-top: 1.2rem;
+}
+
+/* ============================
+   BUTTON STYLE (Links as Buttons)
+   ============================ */
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 25px;
+  background: #159957;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #107869;
+}
+
+/* ============================
+   FOOTER
+   ============================ */
+.site-footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* ============================
+   MOBILE RESPONSIVENESS
+   ============================ */
+@media (max-width: 768px) {
+  .project-name {
+    font-size: 2rem;
+  }
+
+  .project-tagline {
+    font-size: 1.1rem;
+  }
+}
